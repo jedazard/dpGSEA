@@ -10,7 +10,7 @@ This is mirror of Mike Fang's GitHub site at https://github.com/sxf296/drug_targ
 
 numpy, pandas
 
-# Drug Perturbation GSEA (dpGSEA), previously known as dtGSEA
+### Drug Perturbation GSEA (dpGSEA)
 
 A drug-gene target enrichment technique utilizing a modified GSEA approach, and uses prior drug-defined gene sets in the form of proto-matrix files: PM(protomatrix), L1000 or CMAP(derived from), FC or P(ranked by), top 20 or 50(number of genes).
 
