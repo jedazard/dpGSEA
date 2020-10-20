@@ -6,7 +6,7 @@ Version 0.9.3 for python2 or python3
 Please contact Mike Fang at sxf296@case.edu for any questions.
 This is mirror of Mike Fang's GitHub site at https://github.com/sxf296/drug_targeting
 
-# Dependencies
+### Dependencies
 
 numpy, pandas
 
@@ -14,7 +14,7 @@ numpy, pandas
 
 A drug-gene target enrichment technique utilizing a modified GSEA approach, and uses prior drug-defined gene sets in the form of proto-matrix files: PM(protomatrix), L1000 or CMAP(derived from), FC or P(ranked by), top 20 or 50(number of genes).
 
-# How to use
+### How to use
 
 python dpGSEA.py -h for help
 
@@ -29,7 +29,7 @@ The following flags are listed below:
 
 Toy example: python dpGSEA.py -tt CD71pos_nonResvsRes.csv -dr PM_L1000_FC50.csv -i 1000 -o ResVsnonResResults.tsv
 
-# Output file
+### Output file
 
 * drug - specific drug
 * ES - enrichment score
@@ -44,7 +44,7 @@ Toy example: python dpGSEA.py -tt CD71pos_nonResvsRes.csv -dr PM_L1000_FC50.csv 
 
 Please note, to add different FDR cutoffs, please ctrl+F "quantiles = [90, 95]" within the script and add confidence levels as needed.
 
-# Results
+### Results
 
 * Enrichment score (ES) - this score is interpreted the same way the standard GSEA enrichment score. It reflects the degree to which a complimentary or matching drug gene profile is overrepresented at the top of a ranked list.
 
