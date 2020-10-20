@@ -4,7 +4,7 @@ Drug Perturbation GSEA
 Version 0.9.3 for python2 or python3
 
 Please contact Mike Fang at sxf296@case.edu for any questions.
-This is mirror of Mike Fang's GitHub site at https://github.com/sxf296/drug_targeting
+This is a mirror of Mike Fang's GitHub site at https://github.com/sxf296/drug_targeting
 
 ### Dependencies
 
