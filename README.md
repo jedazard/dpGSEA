@@ -53,3 +53,9 @@ Please note, to add different FDR cutoffs, please ctrl+F "quantiles = [90, 95]" 
 * Target compatibility p-value (TC_pvalue) - a p-value reflecting the quantity and magnitude of statistical significance of differentially expressed genes that match or antagonize a drug profile. This statistical test compares the modulation of the leading edge genes against random modulation.
 
 * Driver Genes aka leading edge genes (driver_genes) - this lists genes that appear in the ranked list at or before the point at which the running sum reaches its maximum deviation from zero. These genes are often interpreted as the genes driving an enrichment or modulation of drug-gene and differential expression analysis.
+
+### References
+
+   + Fang M., Richardson B., Cameron C.M., Dazard J-E., and Cameron M.J.  
+      *Drug perturbation gene set enrichment analysis (dpGSEA): a new transcriptomic drug screening approach*. 
+      BMC Bionformatics (in press).
