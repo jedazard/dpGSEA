@@ -62,7 +62,7 @@ Please note, to add different FDR cutoffs, please ctrl+F "quantiles = [90, 95]" 
 
 
 ==================
-### Website - Wiki
+### Website
 
 This is a mirror of [Mike Fang's GitHub repository](https://github.com/sxf296/drug_targeting). Please contact Mike Fang at sxf296@case.edu for any questions.
 
