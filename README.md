@@ -5,7 +5,7 @@ Drug Perturbation GSEA
 ==================
 ### Requirements - Dependencies
 
-   + Version 0.9.3 for python2 or python3
+   + Python2 or Python3 (version >= 0.9.3) 
    + Modules `numpy` and `pandas`
 
 
@@ -77,7 +77,12 @@ Authors:
    + Jean-Eudes Dazard, Ph.D. <jean-eudes.dazard@case.edu>
    + Mark Cameron, Ph.D. <mark.cameron@case.edu>
 
-Maintainers: 
+Author’s Contributions: 
+   + MF: method design, computational analysis and testing, and manuscript writing. 
+   + BR: bioinformatic analysis and validation. 
+   + CMC: design, biological validation, and manuscript writing. 
+   + JED: methods development and manuscript writing. 
+   + MJC: principal investigator, direction and funding of project, manuscript writing.Maintainers: 
    + Mike Fang, Ph.D. <sxf296@case.edu>
 
 Funding/Provision/Help:   
@@ -85,13 +90,6 @@ Funding/Provision/Help:
    + This research was partially supported by NHLBI/NIH under award number T32HL007567, and the content is the responsibility of the authors and does not necessarily 
      represent the official views of the NIH. We also gratefully acknowledge the support of the Case/UHC Center for AIDS research (P30AI036219 for MJC), 
      and the Psoriasis Center of Research Translation (P50AR070590 for authors MJC and MF).
-   
-Author’s Contributions: 
-   + MF: method design, computational analysis and testing, and manuscript writing. 
-   + BR: bioinformatic analysis and validation. 
-   + CMC: design, biological validation, and manuscript writing. 
-   + JED: methods development and manuscript writing. 
-   + MJC: principal investigator, direction and funding of project, manuscript writing.
 
 
 ==================
