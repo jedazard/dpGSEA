@@ -5,8 +5,8 @@ Drug Perturbation GSEA
 ==================
 ### Requirements - Dependencies
 
-* Version 0.9.3 for python2 or python3
-* Modules `numpy` and `pandas`
+   + Version 0.9.3 for python2 or python3
+   + Modules `numpy` and `pandas`
 
 
 ==================
@@ -83,8 +83,8 @@ Maintainers:
 Funding/Provision/Help:   
    + This work made use of the High Performance Computing Resource in the Core Facility for Advanced Research Computing at Case Western Reserve University. 
    + This research was partially supported by NHLBI/NIH under award number T32HL007567, and the content is the responsibility of the authors and does not necessarily 
-   represent the official views of the NIH. We also gratefully acknowledge the support of the Case/UHC Center for AIDS research (P30AI036219 for MJC), 
-   and the Psoriasis Center of Research Translation (P50AR070590 for authors MJC and MF).
+     represent the official views of the NIH. We also gratefully acknowledge the support of the Case/UHC Center for AIDS research (P30AI036219 for MJC), 
+     and the Psoriasis Center of Research Translation (P50AR070590 for authors MJC and MF).
    
 Author’s Contributions: 
    + MF: method design, computational analysis and testing, and manuscript writing. 
@@ -98,5 +98,5 @@ Author’s Contributions:
 ### References
 
    + Fang M., Richardson B., Cameron C.M., Dazard J-E., and Cameron M.J.  
-      *Drug perturbation gene set enrichment analysis (dpGSEA): a new transcriptomic drug screening approach*. 
+      *Drug perturbation gene set enrichment analysis (dpGSEA): a new transcriptomic drug screening approach*.
       BMC Bionformatics (in press).
