@@ -11,15 +11,6 @@ dpGSEA enriches on a proto-matrix based on a user-defined cutoff (these matrices
   match or antagonize a drug profile. This statistical test compares the modulation of the leading edge genes against random modulation.
 - Driver Genes aka leading edge genes (driver_genes) - this lists genes that appear in the ranked list at or before the point at which the running sum reaches its maximum deviation from zero. These genes are often interpreted as the genes driving an enrichment or modulation of drug-gene and differential expression analysis.
 
-#### change logs ####
-
-0.9.2
-	- Changed hit sum calculation to be optimized for smaller lists
-	- Removed some repeated method class.
-	- Added calculations for TCp statistic.
-	- Added seed option.
-	- Changed some discriptions for flags
-
 '''
 
 
