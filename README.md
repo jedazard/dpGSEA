@@ -1,19 +1,21 @@
 # dpGSEA
 Drug Perturbation GSEA
 
+
+==================
+### Requirements - Dependencies
+
 Version 0.9.3 for python2 or python3
+Modules `numpy` and `pandas`
 
-Please contact Mike Fang at sxf296@case.edu for any questions.
-This is a mirror of Mike Fang's GitHub site at https://github.com/sxf296/drug_targeting
 
-### Dependencies
-
-numpy, pandas
-
-### Drug Perturbation GSEA (dpGSEA)
+==================
+### Description
 
 A drug-gene target enrichment technique utilizing a modified GSEA approach, and uses prior drug-defined gene sets in the form of proto-matrix files: PM(protomatrix), L1000 or CMAP(derived from), FC or P(ranked by), top 20 or 50(number of genes).
 
+
+==================
 ### How to use
 
 python dpGSEA.py -h for help
@@ -29,6 +31,8 @@ The following flags are listed below:
 
 Toy example: python dpGSEA.py -tt CD71pos_nonResvsRes.csv -dr PM_L1000_FC50.csv -i 1000 -o ResVsnonResResults.tsv
 
+
+==================
 ### Output file
 
 * drug - specific drug
@@ -44,6 +48,8 @@ Toy example: python dpGSEA.py -tt CD71pos_nonResvsRes.csv -dr PM_L1000_FC50.csv 
 
 Please note, to add different FDR cutoffs, please ctrl+F "quantiles = [90, 95]" within the script and add confidence levels as needed.
 
+
+==================
 ### Results
 
 * Enrichment score (ES) - this score is interpreted the same way the standard GSEA enrichment score. It reflects the degree to which a complimentary or matching drug gene profile is overrepresented at the top of a ranked list.
@@ -54,6 +60,41 @@ Please note, to add different FDR cutoffs, please ctrl+F "quantiles = [90, 95]" 
 
 * Driver Genes aka leading edge genes (driver_genes) - this lists genes that appear in the ranked list at or before the point at which the running sum reaches its maximum deviation from zero. These genes are often interpreted as the genes driving an enrichment or modulation of drug-gene and differential expression analysis.
 
+
+==================
+### Website - Wiki
+
+This is a mirror of [Mike Fang's GitHub repository](https://github.com/sxf296/drug_targeting). Please contact Mike Fang at sxf296@case.edu for any questions.
+
+
+===================
+### Acknowledgments
+
+Authors: 
+   + Mike Fang, Ph.D. <sxf296@case.edu>
+   + Brian Richardson, Ph.D. <bxr183@case.edu>
+   + Cheryl Cameron, Ph.D. <cxc724@case.edu>
+   + Jean-Eudes Dazard, Ph.D. <jean-eudes.dazard@case.edu>
+   + Mark Cameron, Ph.D. <mark.cameron@case.edu>
+
+Maintainers: 
+   + Mike Fang, Ph.D. <sxf296@case.edu>
+
+Funding/Provision/Help:   
+   + This work made use of the High Performance Computing Resource in the Core Facility for Advanced Research Computing at Case Western Reserve University. 
+   + This research was partially supported by NHLBI/NIH under award number T32HL007567, and the content is the responsibility of the authors and does not necessarily 
+   represent the official views of the NIH. We also gratefully acknowledge the support of the Case/UHC Center for AIDS research (P30AI036219 for MJC), 
+   and the Psoriasis Center of Research Translation (P50AR070590 for authors MJC and MF).
+   
+Author’s Contributions: 
+    + MF: method design, computational analysis and testing, and manuscript writing. 
+    + BR: bioinformatic analysis and validation. 
+    + CMC: design, biological validation, and manuscript writing. 
+    + JED: methods development and manuscript writing. 
+    + MJC: principal investigator, direction and funding of project, manuscript writing.
+
+
+==================
 ### References
 
    + Fang M., Richardson B., Cameron C.M., Dazard J-E., and Cameron M.J.  
