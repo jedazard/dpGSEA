@@ -5,8 +5,8 @@ Drug Perturbation GSEA
 ==================
 ### Requirements - Dependencies
 
-Version 0.9.3 for python2 or python3
-Modules `numpy` and `pandas`
+* Version 0.9.3 for python2 or python3
+* Modules `numpy` and `pandas`
 
 
 ==================
@@ -87,11 +87,11 @@ Funding/Provision/Help:
    and the Psoriasis Center of Research Translation (P50AR070590 for authors MJC and MF).
    
 Author’s Contributions: 
-    + MF: method design, computational analysis and testing, and manuscript writing. 
-    + BR: bioinformatic analysis and validation. 
-    + CMC: design, biological validation, and manuscript writing. 
-    + JED: methods development and manuscript writing. 
-    + MJC: principal investigator, direction and funding of project, manuscript writing.
+   + MF: method design, computational analysis and testing, and manuscript writing. 
+   + BR: bioinformatic analysis and validation. 
+   + CMC: design, biological validation, and manuscript writing. 
+   + JED: methods development and manuscript writing. 
+   + MJC: principal investigator, direction and funding of project, manuscript writing.
 
 
 ==================
