@@ -29,7 +29,9 @@ The following flags are listed below:
 * -sd SETSEED, --setseed SETSEED
 * -o OUT, --out OUT (output file names, results will be tab delimited)
 
-Toy example: python dpGSEA.py -tt CD71pos_nonResvsRes.csv -dr PM_L1000_FC50.csv -i 1000 -o ResVsnonResResults.tsv
+Toy example: 
+
+python dpGSEA.py -tt CD71.csv -dr pm/L1K_P10.csv -i 1000 -o results.tsv
 
 
 ==================
@@ -97,4 +99,4 @@ Funding/Provision/Help:
 
    + Fang M., Richardson B., Cameron C.M., Dazard J-E., and Cameron M.J.  
       *Drug perturbation gene set enrichment analysis (dpGSEA): a new transcriptomic drug screening approach*.
-      BMC Bionformatics (in press).
+      BMC Bionformatics (2021), 22(1):1-14.
