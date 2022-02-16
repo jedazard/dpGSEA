@@ -103,4 +103,4 @@ Funding/Provision/Help:
 
    + Fang M., Richardson B., Cameron C.M., Dazard J-E., and Cameron M.J.  
       *Drug perturbation gene set enrichment analysis (dpGSEA): a new transcriptomic drug screening approach*.
-      BMC Bionformatics (2021), 22(1):1-14.
+      [BMC Bionformatics (2021), 22(1):1-14](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03929-0).
