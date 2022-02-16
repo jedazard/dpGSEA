@@ -3,6 +3,13 @@ Drug Perturbation GSEA
 
 
 ==================
+### Website
+
+This is a mirror of [Mike Fang's GitHub repository](https://github.com/sxf296/drug_targeting). 
+Please contact Mike Fang at sxf296@case.edu or Mark Cameron at mjc230@case.edu for any questions.
+
+
+==================
 ### Requirements - Dependencies
 
    + Python2 or Python3 (version >= 0.9.3) 
@@ -12,8 +19,10 @@ Drug Perturbation GSEA
 ==================
 ### Description
 
-A drug-gene target enrichment technique utilizing a modified GSEA approach, and uses prior drug-defined gene sets in the form of proto-matrix files: PM(protomatrix), L1000 or CMAP(derived from), FC or P(ranked by), top 20 or 50(number of genes).
-
+A drug-gene target enrichment technique utilizing a modified GSEA approach, and uses prior drug-defined 
+gene sets in the form of proto-matrix (pm) files: these are derived from either CMAP or L1000 database 
+labeled as L1K or CM respectively. The designation PXX following the label gives the size of the signatures 
+defined within.
 
 ==================
 ### How to use
@@ -31,7 +40,8 @@ The following flags are listed below:
 
 Toy example: 
 
-python dpGSEA.py -tt CD71.csv -dr pm/L1K_P10.csv -i 1000 -o results.tsv
+python dpGSEA.py -tt CD71.csv -dr pms/L1K_P10.csv -i 1000 -o results.tsv
+
 
 
 ==================
@@ -54,19 +64,13 @@ Please note, to add different FDR cutoffs, please ctrl+F "quantiles = [90, 95]" 
 ==================
 ### Results
 
-* Enrichment score (ES) - this score is interpreted the same way the standard GSEA enrichment score. It reflects the degree to which a complimentary or matching drug gene profile is overrepresented at the top of a ranked list.
+* Enrichment score (ES) - this score is interpreted the same way the standard GSEA enrichment score. It reflects the degree to which a complementary or matching drug gene profile is overrepresented at the top of a ranked list.
 
 * Enrichment score p-value (ES_pvalue) - the statistical significance of the enrichment score for a single drug gene set.
 
 * Target compatibility p-value (TC_pvalue) - a p-value reflecting the quantity and magnitude of statistical significance of differentially expressed genes that match or antagonize a drug profile. This statistical test compares the modulation of the leading edge genes against random modulation.
 
 * Driver Genes aka leading edge genes (driver_genes) - this lists genes that appear in the ranked list at or before the point at which the running sum reaches its maximum deviation from zero. These genes are often interpreted as the genes driving an enrichment or modulation of drug-gene and differential expression analysis.
-
-
-==================
-### Website
-
-This is a mirror of [Mike Fang's GitHub repository](https://github.com/sxf296/drug_targeting). Please contact Mike Fang at sxf296@case.edu for any questions.
 
 
 ===================
